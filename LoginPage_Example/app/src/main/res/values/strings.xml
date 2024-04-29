@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LoginPage_Example</string>
+    <string name="registration">Registration</string>
+    <string name="to_create_new_account">To create new account</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+    <string name="i_agree_the_terms_and_condition">I agree the terms and condition</string>
+    <string name="register">REGISTER</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="username">Username *</string>
+    <string name="to_continue_your_account">To continue your account</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="state">State</string>
+    <string name="cont">register</string>
+    <string name="registered">Registered !!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="to_operate_your_account">to operate your account</string>
+</resources>
