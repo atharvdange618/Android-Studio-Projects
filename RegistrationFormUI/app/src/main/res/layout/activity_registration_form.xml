@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RegistrationForm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/edtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:hint="Enter your name"></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textStyle="bold"></TextView>
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbtnmale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rbtnfemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rbtnothers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="others"></RadioButton>
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Qualification"
+        android:textColor="@color/black"
+        android:textStyle="bold"></TextView>
+
+    <CheckBox
+        android:id="@+id/checkboxBE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BE"></CheckBox>
+
+    <CheckBox
+        android:id="@+id/checkboxDiploma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diploma"></CheckBox>
+
+    <CheckBox
+        android:id="@+id/checkboxbtech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B-tech"></CheckBox>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subjects"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="I agree to the terms and conditions."></CheckBox>
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"></Button>
+
+    <Button
+        android:id="@+id/btnDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog"></Button>
+
+
+</LinearLayout>
